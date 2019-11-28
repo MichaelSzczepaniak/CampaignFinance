@@ -1,7 +1,7 @@
 
 
 
-# Data Compile for Project
+# Data Used for Project
 
 ## Presidential Elections
 
@@ -9,30 +9,30 @@ data/USPresidentialOverall.tsv
 
 Tab delimited data file of US presidential elections from 1980 thru 2016 for the top two candidates.  This file has the following columns:
 
-###Year
+### Year
  - **Description**: year of the election
-###Candidate1
+### Candidate1
  - **Description**: last name, first initial of first candidate
-###Candidate2
+### Candidate2
  - **Description**: last name, first initial of second candidate
-###Party1
+### Party1
  - **Description**: party of Candidate1
-###Party2
+### Party2
  - **Description**: party of Candidate1
-###Winner
+### Winner
  - **Description**: last name, first initial of the winner
-###CampaignRaised1
+### CampaignRaised1
  - **Description**: amount of money Candidate1 raised in US dollars
-###CampaignRaised2
+### CampaignRaised2
  - **Description**: amount of money Candidate2 raised in US dollars
-###PopularVote1
+### PopularVote1
  - **Description**: number of popular votes received by Candidate1
-###PopularVote2
+### PopularVote2
  - **Description**: number of popular votes received by Candidate2
-###Incumbent
+### Incumbent
  - **Description**: indicator of whether race was between an incumbent and a challenger: 0 if both candidates were challengers, 1 if Candidate1 was an incumbent, 2 if Candidate2 was an incumbent
 
-###Source
+### Source
 First 8 columns:  [FEC website](https://www.fec.gov/data/raising-bythenumbers/)  
 Columns 9, 10 and 11:  [Encyclopedia Britanica website](https://www.britannica.com/topic/United-States-Presidential-Election-Results-1788863)  
 
@@ -152,5 +152,5 @@ Comma delimited data file of US senate elections in presidential election years 
 ### version  
 - **Description**: date when this dataset was finalize
 
-###Source
-[MIT Election Data Science Lab](http://electionlab.mit.edu/) using the interface hosted by (Harvard Dataverse)[https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PEJ5QU]
+### Source
+[MIT Election Data Science Lab](http://electionlab.mit.edu/) using the interface hosted by [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PEJ5QU)
